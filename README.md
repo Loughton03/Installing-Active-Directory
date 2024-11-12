@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="" alt="place-holder"/>
 </p>
 
 <h1>Installing Active Directory </h1>
@@ -7,15 +7,14 @@ In this lab, I explored and analyzed network traffic to and from Azure virtual m
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines)
 - Remote Desktop Connection
-- Command-Line Tools
-- Network Protocols: SSH, RDP, DNS, HTTP/S, ICMP
-- Wireshark (Protocol Analyzer)
+- 
 
-<h2>Operating Systems Used </h2>
-- Windows 10</b> (21H2)
-- Ubuntu Server 22.04
+<h2>Operating Systems Used</h2>
+
+- Windows 10 Pro
+- Windows Server 2022
 
 <h2>List of Prerequisites</h2>
 
