@@ -47,6 +47,10 @@ To confirm connectivity, I logged into the client VM and used the command ping -
 </p>
 
 <p>
+<img src="https://i.imgur.com/DeRaNzY.png" height="80%" width="80%" alt="place-holder"/>
+</p>
+
+<p>
 With connectivity confirmed, I installed Active Directory Domain Services on the domain controller VM. Using Server Manager, I selected "Add Roles and Features," confirmed the private IP of the domain controller, selected the Active Directory Domain Services role, and completed the setup. Afterward, I promoted the server to a domain controller by clicking the notification flag in Server Manager and selecting "Promote this server to a domain controller." I created a new forest with the domain name "ernestotest.com" and set a password. Following the prompts, I completed the installation.  
 </p>
 
