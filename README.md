@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/d175e222-8325-4053-8bf1-b90fd2e9a016)<p align="center">
-<img src="" alt="place-holder"/>
+<p align="center">
+<img src="https://i.imgur.com/ouRvZVR.png" alt="place-holder"/>
 </p>
 
 <h1>Installing Active Directory </h1>
@@ -42,7 +42,7 @@ First, I set the IP address of the domain controller VM to static. By default, A
 To confirm connectivity, I logged into the client VM and used the command ping -t [domain controller private IP address]. Initially, the ping timed out. This was due to ICMPv4 being disabled in Windows Firewall on the domain controller VM. I enabled it by opening Windows Defender Firewall (using wf.msc), navigating to Inbound Rules, and enabling the "Core Networking Diagnostics - ICMP Echo Request" rule. Returning to the client VM, I confirmed successful ping responses, indicating connectivity.
 </p>
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/poEIoQ5.png" height="80%" width="80%" alt="place-holder"/>
 
 <p>
 With connectivity confirmed, I installed Active Directory Domain Services on the domain controller VM. Using Server Manager, I selected "Add Roles and Features," confirmed the private IP of the domain controller, selected the Active Directory Domain Services role, and completed the setup. Afterward, I promoted the server to a domain controller by clicking the notification flag in Server Manager and selecting "Promote this server to a domain controller." I created a new forest with the domain name "ernestotest.com" and set a password. Following the prompts, I completed the installation.  
